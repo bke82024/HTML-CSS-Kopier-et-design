@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between; /* This will space the items evenly across the container */
+  max-width: 1000px;
+  width: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  flex: 1;
+  color: white;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: hsl(31, 77%, 52%);
+  padding: 25px 40px;
+  min-height: 60svh;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: hsl(184, 100%, 22%);
+  padding: 25px 40px;
+  min-height: 60svh;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-content: center;
+  padding: 25px 40px;
+  background-color: hsl(179, 100%, 13%);
+  min-height: 60svh;
+}
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
