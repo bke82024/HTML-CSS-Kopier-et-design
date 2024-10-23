@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 
-section {
+article {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,36 +29,36 @@ section {
 }
 
 .left {
-  border-radius: 10px 0px 0px 10px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  background-color: hsl(31, 77%, 52%);
-  padding: 25px 40px;
-  min-height: 70svh;
-  max-width: 40svh;
-}
-.center {
-  display: flex;
-  flex-direction: column;
-  align-content: sp;
-  justify-content: center;
-  background-color: hsl(184, 100%, 22%);
-  padding: 25px 40px;
-  min-height: 70svh;
-  max-width: 40svh;
-}
-.right {
-  border-radius: 0px 10px 10px 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: center;
   padding: 25px 40px;
-  background-color: hsl(179, 100%, 13%);
   min-height: 70svh;
   max-width: 40svh;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  padding: 25px 40px;
+  min-height: 70svh;
+  max-width: 40svh;
+  background-color: hsl(184, 100%, 22%);
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  padding: 25px 40px;
+  min-height: 70svh;
+  max-width: 40svh;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
 }
 .button {
   padding: 10px 20px;
@@ -67,7 +67,7 @@ section {
   background-color: white;
   font-weight: bold;
   cursor: pointer;
-  margin-top: auto;
+  margin-bottom: 5px;
 }
 .left .button {
   color: hsl(31, 77%, 52%);
@@ -99,18 +99,19 @@ h2 {
   font-family: "Big Shoulders Display", system-ui;
   font-size: 24px;
   text-align: left;
-  margin-bottom: 15px;
 }
 
 p {
   font-family: "Lexend Deca", system-ui;
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 23px;
   text-align: left;
   margin-bottom: 20px;
 }
 
 img {
+  justify-content: left;
   height: 7svh;
   width: 12svh;
-  padding: 0px;
 }
