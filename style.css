@@ -1,15 +1,23 @@
 * {
   margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 .container {
   display: flex;
   align-content: center;
-  justify-content: center; /* This will space the items evenly across the container */
+  justify-content: center;
   max-width: 1000px;
   width: 100%;
 }
 
-div {
+section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,8 +36,8 @@ div {
   justify-content: center;
   background-color: hsl(31, 77%, 52%);
   padding: 25px 40px;
-  min-height: 60svh;
-  max-width: 30svh;
+  min-height: 70svh;
+  max-width: 40svh;
 }
 .center {
   display: flex;
@@ -38,8 +46,8 @@ div {
   justify-content: center;
   background-color: hsl(184, 100%, 22%);
   padding: 25px 40px;
-  min-height: 60svh;
-  max-width: 30svh;
+  min-height: 70svh;
+  max-width: 40svh;
 }
 .right {
   border-radius: 0px 10px 10px 0px;
@@ -49,8 +57,8 @@ div {
   align-content: center;
   padding: 25px 40px;
   background-color: hsl(179, 100%, 13%);
-  min-height: 60svh;
-  max-width: 30svh;
+  min-height: 70svh;
+  max-width: 40svh;
 }
 .button {
   padding: 10px 20px;
@@ -63,14 +71,30 @@ div {
 }
 .left .button {
   color: hsl(31, 77%, 52%);
+  transition: 0.15s;
 }
 
 .center .button {
   color: hsl(184, 100%, 22%);
+  transition: 0.15s;
 }
 .right .button {
   color: hsl(179, 100%, 13%);
+  transition: 0.15s;
 }
+
+.left .button:hover {
+  background-color: rgb(255, 251, 0);
+}
+
+.center .button:hover {
+  background-color: cyan;
+}
+
+.right .button:hover {
+  background-color: darkcyan;
+}
+
 h2 {
   font-family: "Big Shoulders Display", system-ui;
   font-size: 24px;
