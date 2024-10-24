@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
-  width: 100%;
+  width: 135svh;
   height: 50svh;
 }
 
@@ -34,7 +34,7 @@ section {
   align-content: center;
   padding: 25px 40px;
   min-height: 70svh;
-  max-width: 40svh;
+  max-width: 20svh;
 }
 
 img {
@@ -58,16 +58,16 @@ p {
   margin-bottom: 20px;
 }
 
-.left {
+#left-article {
   background-color: hsl(31, 77%, 52%);
   border-radius: 10px 0px 0px 10px;
 }
 
-.center {
+#center-article {
   background-color: hsl(184, 100%, 22%);
 }
 
-.right {
+#right-article {
   background-color: hsl(179, 100%, 13%);
   border-radius: 0px 10px 10px 0px;
 }
@@ -82,28 +82,31 @@ p {
   margin-bottom: 5px;
 }
 
-.left .button {
+#left-article .button {
   color: hsl(31, 77%, 52%);
   transition: 0.15s;
 }
 
-.center .button {
+#center-article .button {
   color: hsl(184, 100%, 22%);
   transition: 0.15s;
 }
-.right .button {
+#right-article .button {
   color: hsl(179, 100%, 13%);
   transition: 0.15s;
 }
 
-.left .button:hover {
+#left-article .button:hover,
+.button:focus {
   background-color: rgb(255, 251, 0);
 }
 
-.center .button:hover {
+#center-article .button:hover,
+.button:focus {
   background-color: cyan;
 }
 
-.right .button:hover {
+#right-article .button:hover,
+.button:focus {
   background-color: darkcyan;
 }
