@@ -44,12 +44,14 @@ img {
 }
 
 h2 {
+  text-align: left;
   font-family: "Big Shoulders Display", system-ui;
   font-size: 24px;
   text-align: left;
 }
 
 p {
+  min-height: 135px;
   font-family: "Lexend Deca", system-ui;
   font-size: 13px;
   font-weight: 200;
@@ -73,13 +75,14 @@ p {
 }
 
 .button {
-  padding: 10px 20px;
-  border: none;
+  align-self: center;
+  padding: 10px;
+  width: 120px;
+  border: 2px solid white;
   border-radius: 30px;
   background-color: white;
   font-weight: bold;
   cursor: pointer;
-  margin-bottom: 5px;
 }
 
 #left-article .button {
@@ -98,15 +101,18 @@ p {
 
 #left-article .button:hover,
 .button:focus {
-  background-color: rgb(255, 251, 0);
+  background-color: hsl(31, 77%, 52%);
+  color: white;
 }
 
 #center-article .button:hover,
 .button:focus {
-  background-color: cyan;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
 }
 
 #right-article .button:hover,
 .button:focus {
-  background-color: darkcyan;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
 }
