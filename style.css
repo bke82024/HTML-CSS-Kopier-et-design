@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: hsl(0, 0%, 95%);
   display: flex;
   justify-content: center;
   height: 650px;
@@ -23,7 +24,7 @@ article {
   justify-content: space-around;
   align-content: center;
   padding: 25px;
-  color: white;
+  color: hsl(0, 0%, 95%);
 }
 
 section {
@@ -46,6 +47,7 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   text-align: left;
+  color: hsl(0, 0%, 95%);
 }
 
 p {
@@ -56,6 +58,7 @@ p {
   line-height: 23px;
   text-align: left;
   margin-bottom: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 #left-article {
@@ -75,42 +78,45 @@ p {
 .button {
   align-self: center;
   padding: 10px;
-  width: 120px;
-  border: 2px solid white;
+  width: 130px;
+  border: 2px solid hsl(0, 0%, 95%);
   border-radius: 30px;
-  background-color: white;
   font-weight: bold;
+  font-family: "Lexend Deca";
   cursor: pointer;
 }
 
 #left-article .button {
   color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
   transition: 0.15s;
 }
 
 #center-article .button {
   color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
   transition: 0.15s;
 }
 #right-article .button {
   color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
   transition: 0.15s;
 }
 
 #left-article .button:hover,
 .button:focus {
   background-color: transparent;
-  color: white;
+  color: hsl(0, 0%, 95%);
 }
 
 #center-article .button:hover,
 .button:focus {
   background-color: transparent;
-  color: white;
+  color: hsl(0, 0%, 95%);
 }
 
 #right-article .button:hover,
 .button {
   background-color: transparent;
-  color: white;
+  color: hsl(0, 0%, 95%);
 }
